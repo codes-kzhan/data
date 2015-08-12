@@ -5,15 +5,19 @@ belong to the original authors.
 
 ## Text classification
 
-Summary of the datasets. Each one has at least 1 million examples.
+Summary of the datasets.
 
-| name | #class | +1/-1 |  #training | #testing | #feature | binary feature |
+| name | #class | +1/-1 |  #training | #testing | #feature |
 | ---  | ----  | --- | --- | --- | --- | --- |
+| [CriteoI](#criteoi) | 2 | ? | 45,840,617 | 6,042,135 | ? |
+| [CriteoII](#criteoii) | 2 | ? | ~ 2,000,000,000 | ? | ~ 800,000,000 |
+| Avito |
+| Avazu |
+| CTRIa |
+| CTRII |
+| CTRIII |
 | KDD2010a | 2 |
 | KDD2010b | 2 |
-| [CriteoI](#criteoi) | 2 | ? | 45,840,617 | 6,042,135 | ? | yes |
-| CriteoII |
-
 
 ## Text data format
 
