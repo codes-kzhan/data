@@ -21,19 +21,25 @@ Summary of the datasets.
 
 ## Text data format
 
-We use a text format is compatible with the
+We use a text format compatible with the
 [LIBSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) format. Each example is stored as
 a line of text in the following format:
 
 ```
 label index[:value] index[:value] ... index[:value]
 ```
-- `label`: +1 or -1 for binary class. 0, 1, 3 ... for multi-class, and a float
-  for regression.
-- `index`: the unsigned 64-bit integer feature index. The leading 10-bit is preserved for indicating which feature group this
-  feature belongs to, while the rest bits are for the feature ID. For example,
-  assume there is a feature group called `USER_NAME`, then the feature
+- `label`: label for the example
+  - +1 or -1 for binary class
+  - 0, 1, 3 ... for multi-class
+  - a float for regression.
+- `index`: the unsigned 64-bit integer feature index.
+  - The leading 10 bits are preserved for indicating which feature group this
+  feature belongs to
+  - The last 54 bits  are for the feature ID.
+
+  For example, assume there is a feature group called `USER_NAME`, then the feature
   presenting `alex smola` can be indexed by
+
   ```
   (hash64("USER_NAME") << 54) | (hash64("alex smola) >> 10)
   ```
