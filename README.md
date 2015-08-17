@@ -7,17 +7,15 @@ these datasets belong to the original authors.
 
 Summary of the datasets.
 
-| name | #class | +1/-1 |  #training | #testing | #feature |
-| ---  | ----  | --- | --- | --- | --- | --- |
-| [CriteoI](#criteoi) | 2 | ? | 45,840,617 | 6,042,135 | ? |
-| [CriteoII](#criteoii) | 2 | ? | ~ 2,000,000,000 | ? | ~ 800,000,000 |
+| name | class | +1/-1 |  training | testing | feature | feature group |
+| ---  | ----  | --- | --- | --- | --- | --- | --- |
+| [CriteoKaggle](#criteokaggle) | 2 | ? | 45,840,617 | 6,042,135 | ? | 39 |
+| [CriteoTera](#criteoii) | 2 | ? | ~ 2,000,000,000 | ? | ~ 800,000,000 | 39 |
 | Avito |
 | Avazu |
-| CTRIa |
-| CTRII |
-| CTRIII |
-| KDD2010a | 2 |
-| KDD2010b | 2 |
+| [CTRa](#ctra) | 1:1 | | | | |
+| CTRb |
+| CTRc |
 
 ## Text data format
 
@@ -29,8 +27,7 @@ a line of text in the following format:
 label index[:value] index[:value] ... index[:value]
 ```
 - `label`: label for the example
-  - +1 or -1 for binary class
-  - 0, 1, 3 ... for multi-class
+  - 0, 1, 2, ... for multi-class
   - a float for regression.
 - `index`: the unsigned 64-bit integer feature index.
   - The leading 10 bits are preserved for indicating which feature group this
@@ -46,6 +43,32 @@ label index[:value] index[:value] ... index[:value]
 - `value`: the according float weight of this feature. It can be omitted if all
   values are ones, which is common when using the one-hot encoding.
 
-## CriteoI
+[wormhole](https://github.com/dmlc/wormhole/) provides tool `convert.dmlc` to
+convert datasets with different formats.
 
+```
+git clone https://github.com/dmlc/wormhole
+cd wormhole && make deps -j4 && make tool
+```
+
+## Criteo Kaggle
+
+Ad ads CTR dataset from
 [Criteo Kaggle CTR competition](https://www.kaggle.com/c/criteo-display-ad-challenge/)
+
+```bash
+wget https://s3-eu-west-1.amazonaws.com/criteo-labs/dac.tar.gz
+tar -zxvf dac.tar.gz
+wormhole/bin/convert.dmlc -data_in train.txt -format_in criteo -data_out criteo_kaggle_train -format_out libsvm
+wormhole/bin/convert.dmlc -data_in test.txt -format_in criteo_test -data_out criteo_kaggle_test -format_out libsvm
+```
+
+## CTRa
+
+An ads CTR dataset from an anonymous Internet company.
+
+[ctra.7z 200MB](http://www.cs.cmu.edu/~muli/data/ctra.7z) md5: 3b6c8ca1070b09d4673d30b0006e0f1c
+
+## CTRb
+
+An ads CTR dataset from an anonymous Internet company.
