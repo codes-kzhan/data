@@ -1,7 +1,7 @@
 # Datasets
 
-A collection of "big" datasets converted to an uniform format. The copyrights
-these datasets belong to the original authors.
+A collection of datasets converted to an uniform format. The copyrights
+belong to the original authors.
 
 ## Text classification
 
@@ -9,13 +9,12 @@ Summary of the datasets.
 
 | name | class | +1/-1 |  training | testing | feature | feature group |
 | ---  | ----  | --- | --- | --- | --- | --- | --- |
-| [CriteoKaggle](#criteo-kaggle) | 2 | ? | 45,840,617 | 6,042,135 | ? | 39 |
-| [CriteoTera](#criteo-tera) | 2 | ? | ~ 2,000,000,000 | ? | ~ 800,000,000 | 39 |
+| [CriteoKaggle](#criteo-kaggle) | 2 | 3.9:1 | 45,840,617 | 6,042,135 | 34,291K | 39 |
+| [CriteoTera](#criteo-tera) | 2 | ? | ~2B | - | ~800M | 39 |
+| [CTRa](#ctra) | 2 | 1:1 | 223,836 | 62,549 | 13,141K | ~200 |
+| [CTRb](#ctrb) | 2 | 8.6:1 | 164,507 | 47,716 | 17,417K | ~100 |
 | Avito |
 | Avazu |
-| [CTRa](#ctra) | 2 | 1:1 | | | | |
-| CTRb |
-| CTRc |
 
 ## Text data format
 
@@ -69,6 +68,8 @@ wormhole/bin/convert.dmlc -data_in test.txt -format_in criteo_test -data_out cri
   [criteo_kaggle.7z](http://www.cs.cmu.edu/~muli/data/criteo_kaggle.7z). File
   size: 3.2GB. md5sum `cf0494f020419561ea947194f6b5f6a4`
 
+Note: all labels in the test dataset are 0.
+
 ## Criteo Tera
 
 ## CTRa
@@ -80,3 +81,5 @@ An ads CTR dataset from an anonymous Internet company.
 ## CTRb
 
 An ads CTR dataset from an anonymous Internet company.
+
+- Download: [ctrb.7z]. File size: 370MB. md5sum `7878b9ba2d663f321ce79304f9920421`
