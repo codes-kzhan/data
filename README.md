@@ -9,11 +9,11 @@ Summary of the datasets.
 
 | name | class | +1/-1 |  training | testing | feature | feature group |
 | ---  | ----  | --- | --- | --- | --- | --- | --- |
-| [CriteoKaggle](#criteokaggle) | 2 | ? | 45,840,617 | 6,042,135 | ? | 39 |
-| [CriteoTera](#criteoii) | 2 | ? | ~ 2,000,000,000 | ? | ~ 800,000,000 | 39 |
+| [CriteoKaggle](#criteo-kaggle) | 2 | ? | 45,840,617 | 6,042,135 | ? | 39 |
+| [CriteoTera](#criteo-tera) | 2 | ? | ~ 2,000,000,000 | ? | ~ 800,000,000 | 39 |
 | Avito |
 | Avazu |
-| [CTRa](#ctra) | 1:1 | | | | |
+| [CTRa](#ctra) | 2 | 1:1 | | | | |
 | CTRb |
 | CTRc |
 
@@ -56,6 +56,8 @@ cd wormhole && make deps -j4 && make tool
 Ad ads CTR dataset from
 [Criteo Kaggle CTR competition](https://www.kaggle.com/c/criteo-display-ad-challenge/)
 
+Convert the data from the original format:
+
 ```bash
 wget https://s3-eu-west-1.amazonaws.com/criteo-labs/dac.tar.gz
 tar -zxvf dac.tar.gz
@@ -63,11 +65,17 @@ wormhole/bin/convert.dmlc -data_in train.txt -format_in criteo -data_out criteo_
 wormhole/bin/convert.dmlc -data_in test.txt -format_in criteo_test -data_out criteo_kaggle_test -format_out libsvm
 ```
 
+- Download the converted version:
+  [criteo_kaggle.7z](http://www.cs.cmu.edu/~muli/data/criteo_kaggle.7z). File
+  size: 3.2GB. md5sum `cf0494f020419561ea947194f6b5f6a4`
+
+## Criteo Tera
+
 ## CTRa
 
 An ads CTR dataset from an anonymous Internet company.
 
-[ctra.7z 200MB](http://www.cs.cmu.edu/~muli/data/ctra.7z) md5: 3b6c8ca1070b09d4673d30b0006e0f1c
+- Download: [ctra.7z](http://www.cs.cmu.edu/~muli/data/ctra.7z). File size: 200MB. md5: `3b6c8ca1070b09d4673d30b0006e0f1c`
 
 ## CTRb
 
