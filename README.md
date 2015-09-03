@@ -66,9 +66,9 @@ wormhole/bin/convert.dmlc -data_in test.txt -format_in criteo_test -data_out cri
 
 A converted version is provided.
 
-| name | size | download | md5sum |
+| filename | size | download | md5sum |
 | ---  | --- | --- | --- |
-| criteo_kaggle.7z | 3.2GB | [box.com](https://cmu.box.com/shared/static/njfxkocme39wae7rl59rstnaxedufwyi.7z) [pan.baidu.com](xxx) | cf0494f020419561ea947194f6b5f6a4 |
+| criteo_kaggle.7z | 3.2GB | [box.com](https://cmu.box.com/shared/static/njfxkocme39wae7rl59rstnaxedufwyi.7z) | `cf0494f020419561ea947194f6b5f6a4` |
 
 
 Node: all labels in the test dataset are 0.
@@ -88,14 +88,21 @@ done
 
 ## CTRa
 
-Ads CTR dataset from an anonymous Internet company. File name `ctra.7z`. File size: 200MB
+Ads CTR dataset from an anonymous Internet company. Negative examples are down
+sampled.
 
-https://cmu.box.com/shared/static/s8wjtptm5qlhe487tqfz0aftljiisp0k.7z
 
-- Download: [ctra.7z](http://www.cs.cmu.edu/~muli/data/ctra.7z). . md5: `3b6c8ca1070b09d4673d30b0006e0f1c`
+| filename | size | download | md5sum |
+| ---  | --- | --- | --- |
+| ctra.7z | 200MB |
+[box.com](https://cmu.box.com/shared/static/s8wjtptm5qlhe487tqfz0aftljiisp0k.7z)
+[pan.baidu.com](http://pan.baidu.com/s/1mGiFs)
+| `3b6c8ca1070b09d4673d30b0006e0f1c` |
 
 ## CTRb
 
-An ads CTR dataset from an anonymous Internet company.
+Ads CTR dataset from an anonymous Internet company.
+
 
 - Download: [ctrb.7z]. File size: 370MB. md5sum `7878b9ba2d663f321ce79304f9920421`
+https://cmu.box.com/shared/static/grvidn3k0uc9qburz9s7bupwidzwjlj6.7z
