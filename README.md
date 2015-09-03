@@ -1,6 +1,6 @@
 # Datasets
 
-A collection of datasets converted to a [format](format) similar to LIBSVM. The
+A collection of datasets converted to the LIBSVM [format](format.md). The
 copyrights of these datasets belong to the original authors.
 
 ## Text classification
