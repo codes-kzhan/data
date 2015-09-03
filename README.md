@@ -94,15 +94,12 @@ sampled.
 
 | filename | size | download | md5sum |
 | ---  | --- | --- | --- |
-| ctra.7z | 200MB |
-[box.com](https://cmu.box.com/shared/static/s8wjtptm5qlhe487tqfz0aftljiisp0k.7z)
-[pan.baidu.com](http://pan.baidu.com/s/1mGiFs)
-| `3b6c8ca1070b09d4673d30b0006e0f1c` |
+| ctra.7z | 200MB | [box.com](https://cmu.box.com/shared/static/s8wjtptm5qlhe487tqfz0aftljiisp0k.7z) [pan.baidu.com](http://pan.baidu.com/s/1mGiFs) | `3b6c8ca1070b09d4673d30b0006e0f1c` |
 
 ## CTRb
 
 Ads CTR dataset from an anonymous Internet company.
 
-
-- Download: [ctrb.7z]. File size: 370MB. md5sum `7878b9ba2d663f321ce79304f9920421`
-https://cmu.box.com/shared/static/grvidn3k0uc9qburz9s7bupwidzwjlj6.7z
+| filename | size | download | md5sum |
+| ---  | --- | --- | --- |
+| ctrb.7z | 370MB | [box.com](https://cmu.box.com/shared/static/grvidn3k0uc9qburz9s7bupwidzwjlj6.7z) [pan.baidu.com](http://pan.baidu.com/s/1jGEkiPo) | `7878b9ba2d663f321ce79304f9920421` |
