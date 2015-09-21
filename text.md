@@ -19,7 +19,7 @@ A converted version is provided.
 
 | filename | size | md5sum | download |
 | ---  | --- | --- | --- |
-| criteo_kaggle.7z | 3.2GB | `cf0494f020419561ea947194f6b5f6a4` | [box.com](https://cmu.box.com/shared/static/njfxkocme39wae7rl59rstnaxedufwyi.7z) |
+| criteo_kaggle.7z | 3.2GB | `cf0494f020419561ea947194f6b5f6a4` | [link](https://cmu.box.com/shared/static/njfxkocme39wae7rl59rstnaxedufwyi.7z) |
 
 
 Node: all labels in the test dataset are 0.
@@ -45,7 +45,7 @@ sampled.
 
 | filename | size | md5sum | download |
 | ---  | --- | --- | --- |
-| ctra.7z | 200MB | `3b6c8ca1070b09d4673d30b0006e0f1c` | [box.com](https://cmu.box.com/shared/static/s8wjtptm5qlhe487tqfz0aftljiisp0k.7z), [pan.baidu.com](http://pan.baidu.com/s/1mGiFs)|
+| ctra.7z | 200MB | `3b6c8ca1070b09d4673d30b0006e0f1c` | [link](https://cmu.box.com/shared/static/s8wjtptm5qlhe487tqfz0aftljiisp0k.7z)|
 
 ## CTRb
 
@@ -53,4 +53,4 @@ Ads CTR dataset from an anonymous Internet company.
 
 | filename | size | md5sum | download |
 | ---  | --- | --- | --- |
-| ctrb.7z | 370MB | `7878b9ba2d663f321ce79304f9920421` | [box.com](https://cmu.box.com/shared/static/grvidn3k0uc9qburz9s7bupwidzwjlj6.7z), [pan.baidu.com](http://pan.baidu.com/s/1jGEkiPo) |
+| ctrb.7z | 370MB | `7878b9ba2d663f321ce79304f9920421` | [link](https://cmu.box.com/shared/static/grvidn3k0uc9qburz9s7bupwidzwjlj6.7z)|

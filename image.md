@@ -7,4 +7,7 @@ The [CIFAR-10](http://www.cs.toronto.edu/~kriz/cifar.html) dataset consists of
 50000 training images and 10000 test images. They were collected by Alex
 Krizhevsky, Vinod Nair, and Geoffrey Hinton.
 
-wget http://webdocs.cs.ualberta.ca/~bx3/data/cifar10.zip
+
+| filename | size | md5sum | download |
+| ---  | --- | --- | --- |
+| cifar10.7z | 128MB | `c2468b9c8c4090b667132c2d39338e9b` | [link](http://webdocs.cs.ualberta.ca/~bx3/data/cifar10.zip) |
