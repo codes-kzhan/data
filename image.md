@@ -10,4 +10,4 @@ Krizhevsky, Vinod Nair, and Geoffrey Hinton.
 
 | filename | size | md5sum | download |
 | ---  | --- | --- | --- |
-| cifar10.7z | 128MB | `c2468b9c8c4090b667132c2d39338e9b` | [link](http://webdocs.cs.ualberta.ca/~bx3/data/cifar10.zip) |
+| cifar10.zip | 128MB | `c2468b9c8c4090b667132c2d39338e9b` | [link](http://webdocs.cs.ualberta.ca/~bx3/data/cifar10.zip) |
