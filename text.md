@@ -3,7 +3,8 @@
 ## Criteo Kaggle
 
 Ads CTR dataset from
-[Criteo Kaggle CTR competition](https://www.kaggle.com/c/criteo-display-ad-challenge/).
+[Criteo Kaggle CTR competition](https://www.kaggle.com/c/criteo-display-ad-challenge/). Provided
+by
 
 Convert the data from the original format:
 

@@ -35,3 +35,9 @@ cd wormhole && make deps -j4 && make tool
 ```
 
 ## Image data format
+
+Recordio.
+
+Pack images into a recordio file:
+
+https://github.com/dmlc/mxnet/blob/master/tools/im2rec.cc
