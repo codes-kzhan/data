@@ -10,7 +10,7 @@ All are converted into the [LIBSVM format](format.md#text-data-format).
 
 | name | class | +1/-1 |  training | testing | feature | feature group |
 | ---  | ----  | --- | --- | --- | --- | --- | --- |
-| [CriteoKaggle](text.md#criteo-kaggle) | 2 | 3.9:1 | 4.584 × 10<sup>7</sup> K | 6,042 K |
+| [CriteoKaggle](text.md#criteo-kaggle) | 2 | 3.9:1 | 4.584×10<sup>7</sup> K | 6,042 K |
 | 34,291 K | 39 |
 | [CriteoTera](text.md#criteo-tera) | 2 | ? | ~2 B | - | ~800 M | 39 |
 | [CTRa](text.md#ctra) | 2 | 1:1 | 223,836 | 63,549 | 13,141 K | ~200 |
