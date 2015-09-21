@@ -1,3 +1,5 @@
+# Data format
+
 ## Text data format
 
 We use a text format compatible with the
@@ -31,3 +33,5 @@ convert datasets with different formats.
 git clone https://github.com/dmlc/wormhole
 cd wormhole && make deps -j4 && make tool
 ```
+
+## Image data format
