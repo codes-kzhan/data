@@ -46,6 +46,7 @@ sampled.
 | filename | size | md5sum | download |
 | ---  | --- | --- | --- |
 | ctra.7z | 200MB | `3b6c8ca1070b09d4673d30b0006e0f1c` | [link](https://cmu.box.com/shared/static/s8wjtptm5qlhe487tqfz0aftljiisp0k.7z)|
+| ctra.tar.gz | 300MB | `7ee86dc63a16c42b0737dca3afee905d` | [link](https://cmu.box.com/shared/static/tolqotsal8d5whkiks8v8rk9lueqksq3.gz) |
 
 ## CTRb
 
@@ -54,3 +55,4 @@ Ads CTR dataset from an anonymous Internet company.
 | filename | size | md5sum | download |
 | ---  | --- | --- | --- |
 | ctrb.7z | 370MB | `7878b9ba2d663f321ce79304f9920421` | [link](https://cmu.box.com/shared/static/grvidn3k0uc9qburz9s7bupwidzwjlj6.7z)|
+| ctrb.tar.gz | 687MB | `63cce54e6db7b526b0f3e418ef98c162`| [link](https://cmu.box.com/shared/static/uvjuon4h9av3bz0fmai7n44cgar021xa.gz) |
